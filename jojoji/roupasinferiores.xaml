@@ -1,0 +1,67 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jojoji.RoupasInferiores"
+             Title="Roupas Inferiores">
+    <Grid BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Roupas Inferiores"
+               FontSize="Large"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               Grid.Row="0" />
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Spacing="10">
+                <Button Text="Jeans"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Calça chino"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Calça de moletom"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Bermudas"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+            </StackLayout>
+        </ScrollView>
+
+        <Button Text="Selecionar"
+                BackgroundColor="Red"
+                TextColor="White"
+                CornerRadius="5"
+                HorizontalOptions="Center"
+                Grid.Row="2" />
+
+        <Button Text="<"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Grid.Row="2" />
+        <Button Text=">"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+                Grid.Row="2" />
+    </Grid>
+</ContentPage>

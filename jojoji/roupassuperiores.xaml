@@ -1,0 +1,67 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.roupassuperiores"
+             Title="Roupas Superiores">
+    <Grid BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Roupas Superiores"
+               FontSize="Large"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               Grid.Row="0" />
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Spacing="10">
+                <Button Text="Camisetas básicas"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Camisas polo"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Camisas de botão"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Blusa de moletom"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Suéteres"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Jaqueta jeans"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+            </StackLayout>
+        </ScrollView>
+
+        <Button Text="<"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2"
+                HorizontalOptions="Start"
+                VerticalOptions="Center" />
+        <Button Text=">"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2"
+                HorizontalOptions="End"
+                VerticalOptions="Center" />
+    </Grid>
+</ContentPage>

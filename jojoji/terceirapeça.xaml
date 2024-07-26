@@ -1,0 +1,46 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.terceirapeça"
+             Title="Terceira Peça">
+    <VerticalStackLayout Spacing="10" Padding="20">
+        <Label Text="Terceira Peça"
+               FontSize="Large"
+               TextColor="White" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="0">
+                <Button Text="Moletom"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Blazers"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+                <Button Text="Coletes"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        BorderColor="Red"
+                        BorderWidth="2" />
+            </StackLayout>
+
+            <Label Grid.Column="1" Text=">"
+                   FontSize="Large"
+                   TextColor="White"
+                   VerticalOptions="Center" />
+        </Grid>
+
+        <Button Text="Selecionar"
+                BackgroundColor="Black"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2" />
+    </VerticalStackLayout>
+</ContentPage>

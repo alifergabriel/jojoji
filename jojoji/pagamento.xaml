@@ -1,0 +1,16 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jojoji.Pagamento"
+             Title="Pagamento">
+    <ScrollView>
+        <StackLayout Spacing="10">
+            <Entry Placeholder="Email" />
+            <Entry Placeholder="Número do cartão" Keyboard="Numeric" />
+            <Entry Placeholder="Data de validade (MM/AA)" Keyboard="Numeric" />
+            <Entry Placeholder="Código de segurança (CVV)" Keyboard="Numeric" />
+            <Entry Placeholder="Senha" IsPassword="True" />
+            <Entry Placeholder="Valor total" Keyboard="Numeric" />
+            <Button Text="Prosseguir" BackgroundColor="Green" TextColor="White" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

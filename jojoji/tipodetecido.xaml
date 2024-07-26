@@ -1,0 +1,32 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.tipodetecido"
+             Title="Seleção de Tecido">
+    <VerticalStackLayout Spacing="20" Padding="20">
+        <Label Text="Seleção do tipo de tecido"
+               FontSize="Large"
+               TextColor="White" />
+
+        <Button Text="Algodão"
+                BackgroundColor="Black"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2" />
+        <Button Text="Linho"
+                BackgroundColor="Black"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2" />
+        <Button Text="Viscose"
+                BackgroundColor="Black"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2" />
+
+        <Button Text="Confirmar Seleção"
+                BackgroundColor="Black"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2" />
+    </VerticalStackLayout>
+</ContentPage>
