@@ -1,0 +1,31 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.Views.EnderecoPage"
+             Title="selecaoendereco">
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Endereço para entrega"
+               Grid.Row="0" />
+        <Entry Grid.Row="1" />
+
+        <Label Text="Ponto de referência"
+               Grid.Row="2" />
+        <Entry Grid.Row="3" />
+
+        <Label Text="Outro local caso não esteja na residência"
+               Grid.Row="4" />
+        <Entry Grid.Row="5" />
+
+        <Grid Grid.Row="6" ColumnDefinitions="*,*" Padding="10">
+            <Button Text="Salvar" Grid.Column="0" />
+            <Button Text="Continuar" Grid.Column="1" />
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,37 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.DanosIrreparaveis.Views.DestinoFinalPage"
+             Title="Destino Final (Danos Irreparáveis)">
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Text="ID do Item"
+               Grid.Row="0" />
+        <Entry Grid.Row="1" />
+
+        <Label Text="Descrição"
+               Grid.Row="2" />
+        <Entry Grid.Row="3" />
+
+        <Label Text="Status do Item"
+               Grid.Row="4" />
+        <Entry Grid.Row="5" />
+
+        <StackLayout Grid.Row="6" Orientation="Horizontal" Spacing="20">
+            <Button Text="Reciclagem" />
+            <Button Text="Doação" />
+            <Button Text="Descarte" />
+        </StackLayout>
+
+        <Button Text="Registrar Destino"
+                Grid.Row="7"
+                HorizontalOptions="Center" />
+    </Grid>
+</ContentPage>

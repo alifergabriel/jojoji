@@ -1,0 +1,41 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.Views.DespachoPage"
+             Title="tecidosdanificados"
+             BackgroundColor="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" Spacing="20" VerticalAlignment="Center">
+            <Label Text="Recebimento"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+            <Label Text="Inspeção"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+            <Label Text="Reparo Interno"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+            <Label Text="Reparo Externo"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+            <Label Text="Destinação Final"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+        </StackLayout>
+
+        <Button Text="Entrar"
+                BackgroundColor="White"
+                TextColor="Black"
+                Grid.Row="1"
+                HorizontalOptions="Center" />
+    </Grid>
+</ContentPage>

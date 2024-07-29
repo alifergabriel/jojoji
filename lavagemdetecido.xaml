@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.lavagemdetecido.Views.LavagemPage"
+             Title="Lavagem de Tecido">
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Text="Número de Peças"
+               Grid.Row="0" />
+        <Entry Grid.Row="1" />
+
+        <Label Text="Quantidade de Máquinas"
+               Grid.Row="2" />
+        <Entry Grid.Row="3" />
+
+        <Label Text="Tempo de Cada Lavagem (minutos)"
+               Grid.Row="4" />
+        <Entry Grid.Row="5" />
+
+        <Label Text="Valor Total"
+               Grid.Row="6" />
+        <Entry Grid.Row="7" />
+
+        <Button Text="Prosseguir"
+                Grid.Row="8"
+                HorizontalOptions="Center" />
+    </Grid>
+</ContentPage>

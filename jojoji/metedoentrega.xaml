@@ -1,0 +1,22 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.Views.metedoentrega"
+             Title="Método de Entrega">
+    <StackLayout>
+        <Button Text="Entrega padrão"
+                Clicked="EntregaPadrao_Clicked" />
+        <Label Text="$12,99 + frete (depende do local da entrega)" />
+
+        <Button Text="Expressa"
+                Clicked="Expressa_Clicked" />
+        <Label Text="$12,99 + frete (depende do local da entrega)" />
+
+        <Button Text="Retirada na loja"
+                Clicked="RetiradaNaLoja_Clicked" />
+        <Label Text="$12,99 + frete (depende do local da entrega)" />
+
+        <Button Text="Correios"
+                Clicked="Correios_Clicked" />
+        <Label Text="$12,99 + frete (depende do local da entrega)" />
+    </StackLayout>
+</ContentPage>

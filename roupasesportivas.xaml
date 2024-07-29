@@ -1,0 +1,44 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.Views.roupasesportivas"
+             Title="Roupas Esportivas"
+             BackgroundColor="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Roupas Esportivas"
+               TextColor="White"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               Grid.Row="0" />
+
+        <StackLayout Grid.Row="1" Spacing="20">
+            <Button Text="Camisetas dry-fit"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    CornerRadius="10" />
+            <Button Text="Shorts esportivos"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    CornerRadius="10" />
+            <Button Text="Agasalho esportivo"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    CornerRadius="10" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="2">
+            <Button Text="←"
+                    TextColor="White" />
+            <Label Text="selecionar"
+                   TextColor="White" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

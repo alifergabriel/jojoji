@@ -1,0 +1,16 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.tabeladecortes.Views.TabelaDeCortesPage"
+             Title="Tabela de Cortes">
+    <ScrollView>
+        <ListView ItemsSource="{Binding TiposDeCorte}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding .}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Confirmar Tipo de Corte"
+                HorizontalOptions="Center" />
+    </ScrollView>
+</ContentPage>
