@@ -3,7 +3,7 @@ using Microsoft.Maui.Controls;
 
 namespace jojoji.Views
 {
-    public partial class metedoentrega : ContentPage
+    public partial class  metedoentrega: ContentPage
     {
         public metedoentrega()
         {

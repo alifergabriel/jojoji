@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace jojoji
 {
-    public partial class terceirapeça : ContentPage
+    public partial class tercerapeça : ContentPage
     {
-        public terceirapeça()
+        public tercerapeça()
         {
             InitializeComponent();
         }

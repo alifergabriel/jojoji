@@ -49,7 +49,7 @@
             </StackLayout>
         </ScrollView>
 
-        <Button Text="<"
+        <Button Text="&#x003c;"
                 BackgroundColor="Transparent"
                 TextColor="White"
                 BorderColor="Red"

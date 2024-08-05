@@ -3,7 +3,7 @@ namespace jojoji;
 public class cliente
 {
 string nome;
-Int64 id;
+Int64 ID;
 
 Int64 Telefone;
 
@@ -19,12 +19,12 @@ public string GetNome()
     return nome;
 }
 
-public void setCPF(string CPF)
+public void SetCPF(string CPF)
 
 {
     this.CPF = CPF;
 }
-public string getCPF()
+public string SetCPF()
 {
     return CPF;
 }
