@@ -1,7 +1,7 @@
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 
-namespace Jojoji
+namespace jojoji
 {
     public partial class RoupasSuperiores2 : ContentPage
     {
