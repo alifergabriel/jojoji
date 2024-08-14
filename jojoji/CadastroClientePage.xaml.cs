@@ -1,10 +1,10 @@
-﻿using LiteDBExample.Modelos;
+﻿using jojoji.Modelos;
 
-namespace LiteDBExample;
+namespace jojoji;
 
 public partial class CadastroClientePage : ContentPage
 {
-  public Cliente cliente {get ; set;}
+  public cliente cliente {get ; set;}
   Controles.ClienteControle clienteControle = new Controles.ClienteControle();
 
 	public CadastroClientePage()
