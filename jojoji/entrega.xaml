@@ -1,33 +1,37 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="jojoji.entrega"
-             Title="Método de Entrega">
-    <VerticalStackLayout Spacing="10" Padding="20" BackgroundColor="Black">
+             x:Class="jojoji.Views.MetodoEntregaPage"
+             Title="entrega"
+             BackgroundColor="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
         <Label Text="Método de Entrega"
+               TextColor="White"
                FontSize="Large"
-               TextColor="White" />
+               HorizontalTextAlignment="Center"
+               Grid.Row="0" />
 
-        <Button Text="Entrega Padrão"
-                BackgroundColor="Transparent"
-                TextColor="White"
-                BorderColor="Red"
-                BorderWidth="2" />
-        <Label Text="$12,99 + frete (depende do local da entrega)"
-               TextColor="White"
-               FontSize="Small" />
-
-        <Button Text="Expressa"
-                BackgroundColor="Transparent"
-                TextColor="White"
-                BorderColor="Red"
-                BorderWidth="2" />
-        <Label Text="$12,99 + frete (depende do local da entrega)"
-               TextColor="White"
-               FontSize="Small" />
-
-        <Button Text="Selecionar"
-                BackgroundColor="Red"
-                TextColor="White"
-                CornerRadius="5" />
-    </VerticalStackLayout>
+        <StackLayout Grid.Row="1" Spacing="20">
+            <Button Text="Entrega padrão"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    CornerRadius="10" />
+            <Button Text="Expressa"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    CornerRadius="10" />
+            <Button Text="Retirada na loja"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    CornerRadius="10" />
+            <Button Text="Correios"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    CornerRadius="10" />
+        </StackLayout>
+    </Grid>
 </ContentPage>
