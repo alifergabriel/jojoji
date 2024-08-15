@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jojoji.MainPage">
+    <Grid>
+        <Label Text="Cadastro" FontSize="Title" HorizontalTextAlignment="Center" />
+        <Entry Placeholder="Nome" x:Name="entryNome" />
+        <Entry Placeholder="Sobrenome" x:Name="entrySobrenome" />
+        <Entry Placeholder="Email" x:Name="entryEmail" />
+        <Entry Placeholder="Endereço" x:Name="entryEndereco" />
+        <Button Text="Entrar" Clicked="Button_Clicked" />
+    </Grid>
+</ContentPage>
