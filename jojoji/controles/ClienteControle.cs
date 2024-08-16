@@ -1,6 +1,6 @@
 using jojoji.Modelos;
 
-namespace controles;
+namespace Controles;
 
 public class ClienteControle : BaseControle
 {

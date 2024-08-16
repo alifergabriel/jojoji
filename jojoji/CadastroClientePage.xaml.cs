@@ -4,7 +4,7 @@ namespace jojoji;
 
 public partial class CadastroClientePage : ContentPage
 {
-  public cliente cliente {get ; set;}
+  public Cliente cliente {get ; set;}
   Controles.ClienteControle clienteControle = new Controles.ClienteControle();
 
 	public CadastroClientePage()

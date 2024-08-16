@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace jojoji
 {
-    public partial class RoupasInferiores : ContentPage
+    public partial class roupasinferiores : ContentPage
     {
-        public RoupasInferiores()
+        public roupasinferiores()
         {
             InitializeComponent();
 

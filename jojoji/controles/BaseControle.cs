@@ -1,7 +1,7 @@
 using LiteDB;
 using jojoji.Modelos;
 
-namespace controles;
+namespace Controles;
 
 public class BaseControle
 {
