@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace jojoji.Views
 {
-    public partial class selecaoenereco : ContentPage
+    public partial class selecaoendereco : ContentPage
     {
-        public selecaoenereco()
+        public selecaoendereco()
         {
             InitializeComponent();
         }

@@ -3,7 +3,7 @@ using Microsoft.Maui.Controls;
 
 namespace jojoji
 {
-    public partial class entregadeproduto : ContentPage
+    public partial class entregadeproduto: ContentPage
     {
         public entregadeproduto()
         {
