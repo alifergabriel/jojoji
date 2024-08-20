@@ -4,13 +4,13 @@
              Title="Pagamento">
     <ScrollView>
         <StackLayout Spacing="10">
-            <Entry Placeholder="Email" />
-            <Entry Placeholder="Número do cartão" Keyboard="Numeric" />
+            <Entry x:Name="EmailEntry" Placeholder="Email" />
+            <Entry x:Name="NumeroCartaoEntry" Placeholder="Número do cartão" Keyboard="Numeric" />
             <Entry Placeholder="Data de validade (MM/AA)" Keyboard="Numeric" />
             <Entry Placeholder="Código de segurança (CVV)" Keyboard="Numeric" />
             <Entry Placeholder="Senha" IsPassword="True" />
             <Entry Placeholder="Valor total" Keyboard="Numeric" />
-            <Button Text="Prosseguir" BackgroundColor="Green" TextColor="White" />
+            <Button x:Name="ProsseguirButton" Text="Prosseguir" Clicked="OnProsseguirButtonClicked" BackgroundColor="Green" TextColor="White" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

@@ -22,7 +22,7 @@
             <Entry Placeholder="Digite o sobrenome" x:Name="SobrenomeEntry"/>
             <Label Text="Telefone:" />
             <Entry Placeholder="Digite o telefone" x:Name="TelefoneEntry"/>
-
+            
             <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
                 <Button Text="Limpar"
                         TextColor="Red"
