@@ -40,7 +40,9 @@
             </StackLayout>
         </ScrollView>
 
-        <Button Text="Selecionar"
+        <Button x:Name="SelecionarButton"
+        Text="Selecionar"
+        Clicked="OnSelecionarButtonClicked"
                 BackgroundColor="Red"
                 TextColor="White"
                 CornerRadius="5"

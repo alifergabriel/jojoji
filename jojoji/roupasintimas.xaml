@@ -1,6 +1,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="jojoji.RoupasIntimas"
+             x:Class="jojoji.roupasintimas"
              Title="Roupas Íntimas">
     <Grid BackgroundColor="Black">
         <Grid.RowDefinitions>

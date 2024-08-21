@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace jojoji
 {
-    public partial class CamadasExternas : ContentPage
+    public partial class camadasexternas : ContentPage
     {
-        public CamadasExternas()
+        public camadasexternas()
         {
             InitializeComponent();
 
