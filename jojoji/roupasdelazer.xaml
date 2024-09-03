@@ -36,7 +36,6 @@
 
         <Button Text="← selecionar"
                 TextColor="White"
-                Grid.Row="2"
-                HorizontalTextAlignment="Start" />
+                Grid.Row="2"/>
     </Grid>
 </ContentPage>

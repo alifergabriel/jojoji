@@ -9,8 +9,6 @@ namespace jojoji
         {
             InitializeComponent();
 
-            // Exemplo de evento para o botão "Selecionar"
-            SelecionarButton.Clicked += OnSelecionarButtonClicked;
         }
 
         private void OnSelecionarButtonClicked(object sender, EventArgs e)

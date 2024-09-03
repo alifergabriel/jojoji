@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="jojoji.cadastro"
+             x:Class="jojoji.cadastro2"
              BackgroundColor="Black">
 
+    <ContentPage.Content>
         <StackLayout VerticalOptions="Center"
                 HorizontalOptions="Center"
                 Padding="20"
                 BackgroundColor="White">
-            <Label Text="Cadastro"
+            <Label Text="cadastro"
                     HorizontalOptions="Center"
                     Margin="0,10,0,20"/>
 
-            <Entry Placeholder="nome"
-                    BackgroundColor="White"/>
-            <Entry Placeholder="sobrenome"
-                    BackgroundColor="White"
-                    Margin="0,10,0,0"/>
-            <Entry Placeholder="email"
-                    BackgroundColor="White"
-                    Margin="0,10,0,0"/>
-            <Entry Placeholder="endereço"
-                    BackgroundColor="White"
-                    Margin="0,10,0,0"/>
+            <StackLayout VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    Padding="30,50">
+                <Label Text="cadastro concluído(a)"
+                        HorizontalOptions="Center"/>
+                <Image Source="checkmark.png"
+                        WidthRequest="50"
+                        HeightRequest="50"
+                        HorizontalOptions="Center"
+                        Margin="10,10,0,0"/>
+            </StackLayout>
 
             <Button Text="entrar"
                     VerticalOptions="End"
                     HorizontalOptions="Center"
                     Margin="0,20,0,0"/>
         </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

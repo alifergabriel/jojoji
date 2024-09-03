@@ -8,15 +8,14 @@
         <Label Text="$12,99 + frete (depende do local da entrega)" />
 
         <Button Text="Expressa"
-                Clicked="Expressa_Clicked" />
+                 />
         <Label Text="$12,99 + frete (depende do local da entrega)" />
 
         <Button Text="Retirada na loja"
-                Clicked="RetiradaNaLoja_Clicked" />
+                />
         <Label Text="$12,99 + frete (depende do local da entrega)" />
 
-        <Button Text="Correios"
-                Clicked="Correios_Clicked" />
+        <Button Text="Correios" />
         <Label Text="$12,99 + frete (depende do local da entrega)" />
     </StackLayout>
 </ContentPage>

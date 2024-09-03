@@ -27,7 +27,8 @@
                         BackgroundColor="Transparent"
                         TextColor="White"
                         BorderColor="Red"
-                        BorderWidth="2" />
+                        BorderWidth="2"
+                         />
                 <Button Text="Óculos de sol"
                         BackgroundColor="Transparent"
                         TextColor="White"
