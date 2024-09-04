@@ -14,14 +14,18 @@
                    FontSize="20"
                    HorizontalOptions="Center"
                    Margin="0,20,0,20"/>
+
             <Label Text="ID:"/>
             <Label x:Name="IdLabel"/>
+
             <Label Text="Nome:"/>
             <Entry Placeholder="Digite o nome"
                     x:Name="NomeEntry"/>
+
             <Label Text="Sobrenome:"/>
             <Entry Placeholder="Digite o sobrenome"
                     x:Name="SobrenomeEntry"/>
+                    
             <Label Text="Telefone:"/>
             <Entry Placeholder="Digite o telefone"
                     x:Name="TelefoneEntry"/>
